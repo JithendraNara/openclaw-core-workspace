@@ -1,0 +1,13 @@
+{
+  "name": "openclaw-core-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Core OpenClaw workspace for runtime, memory, sync, and CLI modules.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
